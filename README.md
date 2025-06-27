@@ -29,17 +29,6 @@ A lightweight, full-stack web application designed to help users create and mana
 - **Modern UI**: shadcn/ui components for professional appearance
 - **Accessibility**: ARIA labels, keyboard navigation, and screen reader support
 
-## 🚀 Live Demo
-
-**Deployed Application**: [https://19hninclxjzl.manus.space](https://19hninclxjzl.manus.space)
-
-Try the application with these features:
-1. Register a new account with your information
-2. Log in and explore the dashboard
-3. Edit your profile and add interests
-4. Browse the user directory
-5. View account settings
-
 ## 🛠️ Technology Stack
 
 ### Frontend
@@ -317,75 +306,6 @@ Authorization: Bearer <jwt_token>
 - **Cross-Origin Requests**: Properly configured CORS for API access
 - **Secure Headers**: Security headers for production deployment
 
-## 🧪 Testing
-
-### Manual Testing Checklist
-
-#### Authentication Flow
-- [ ] User registration with all required fields
-- [ ] User registration with validation errors
-- [ ] User login with correct credentials
-- [ ] User login with incorrect credentials
-- [ ] Automatic redirect to login when not authenticated
-- [ ] Logout functionality
-
-#### Profile Management
-- [ ] View profile information
-- [ ] Edit profile with valid data
-- [ ] Edit profile with validation errors
-- [ ] Profile picture placeholder display
-- [ ] Interest selection and display
-
-#### User Directory
-- [ ] View all users in directory
-- [ ] User card information display
-- [ ] Loading states during API calls
-- [ ] Error handling for failed requests
-
-#### Responsive Design
-- [ ] Mobile device compatibility
-- [ ] Tablet device compatibility
-- [ ] Desktop display optimization
-- [ ] Touch-friendly interface elements
-
-## 🚀 Deployment
-
-The application is deployed using Manus deployment services:
-
-### Production URL
-**Live Application**: [https://19hninclxjzl.manus.space](https://19hninclxjzl.manus.space)
-
-### Deployment Process
-1. **Frontend Build**: React application built for production
-2. **Static File Integration**: Frontend files served by Flask backend
-3. **Backend Deployment**: Flask application deployed with integrated frontend
-4. **Database**: SQLite database automatically created and managed
-
-### Environment Configuration
-- **Production Mode**: Optimized builds and error handling
-- **CORS**: Configured for cross-origin requests
-- **Static Files**: Efficient serving of frontend assets
-
-## 🤝 Contributing
-
-### Development Guidelines
-1. **Code Style**: Follow existing code formatting and structure
-2. **Components**: Create reusable, well-documented components
-3. **State Management**: Use Redux for global state, local state for component-specific data
-4. **Validation**: Implement both client-side and server-side validation
-5. **Accessibility**: Ensure all components are accessible and keyboard navigable
-
-### Adding New Features
-1. **Backend**: Add new API endpoints in appropriate route files
-2. **Frontend**: Create components in the appropriate directory structure
-3. **State**: Add Redux slices for new data management needs
-4. **Validation**: Implement Zod schemas for new form fields
-5. **Testing**: Test new features thoroughly before deployment
-
-## 📝 License
-
-This project is created as a demonstration application for the ProFile personal profile management system.
-
 ## 🙏 Acknowledgments
 
 - **shadcn/ui**: For providing excellent UI components
@@ -393,9 +313,4 @@ This project is created as a demonstration application for the ProFile personal 
 - **React Hook Form**: For efficient form management
 - **Redux Toolkit**: For simplified state management
 - **Flask**: For the lightweight backend framework
-- **Manus**: For deployment and hosting services
-
----
-
-**Built with ❤️ using modern web technologies**
 
